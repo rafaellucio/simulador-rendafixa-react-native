@@ -5,7 +5,8 @@ import {
   View,
   Image,
   TextInput,
-  Button
+  Button,
+  ScrollView
 } from 'react-native';
 
 export default class App extends React.Component {
@@ -86,7 +87,8 @@ const styles = StyleSheet.create({
     color: '#333',
     textAlign: 'center',
     fontSize: 42,
-    height: 40
+    height: 60,
+    paddingBottom: 5
   },
   button: {
     fontSize: 16,
